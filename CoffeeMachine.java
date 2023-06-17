@@ -13,7 +13,7 @@ public class CoffeeMachine {
         switch (drink) {
 
             case 1:
-                System.out.println("c");
+                System.out.println("готовится эспрессо: неразделяемый процесс");
                 break;
 
             case 2:
