@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2 {
+   
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    margin-bottom: 100px;
+    margin-top: 30px;
+    color: white;
+}
+.box2 {
+width: 30vw;
+height: 25vh;
+background-color: #4f4ec1 ;
+margin: 20px;
+border: 2px solid #00008b;
+border-radius: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+flex-direction: column;
+color: white;
+}
+
+.box1 {
+width: 30vw;
+height: 10vh;
+background-color:#4f4ec1;
+margin: 20px;
+border: 2px solid #00008b;
+border-radius: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+color: white;
+}
+
+body {
+    background-image: url(https://wallpapers.com/images/hd/information-technology-1920-x-1080-background-l9e9h8wkj7c474fr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box {
+background-color: #8180d3   ;
+width: 40vw;
+height: 125vh;
+margin: 40px;
+padding: 10px;
+border: 2px solid #00008b;
+border-radius: 30px;
+
+}
+
+.image {
+height: 270px;
+width: 400px;
+border-radius: 20px;
+}
+
+
