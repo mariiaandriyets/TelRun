@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.box1 {
+width: 100vw;
+height: 10vh;
+background-color: #1CAC78 ;
+display: flex;
+color: white;
+text-shadow: 1px 1px black;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.box1-1 {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+width: 70vw;
+}
+
+.box1-2 {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+position: relative;
+text-align: center;
+color: white;
+text-shadow: 1px 1px black;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon {
+width: 10vw;
+height: 5vh;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid white;
+border-radius: 10px;
+}
+
+.icon:hover {
+    background-color: #006A4E;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.img {
+height: 30px;
+width: 30px;
+margin: 20px;
+}
+
+.img1 {
+height: 80vh;
+width: 100vw;
+}
+
+.image2 {
+width: 25vw;
+height: 25vh;
+margin: 40px;
+border: 2px solid #1B4D3E;
+}
+
+.img3 {
+width: 60px;
+height: 60px;
+border-radius: 30px;
+margin-left: 20px;
+}
+
+.image4 {
+width: 60px;
+height: 60px;
+margin: 10px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+  padding: 20px;
+  background-color: #1CAC78;
+}
+
+.box2-1 {
+display: flex;
+justify-content: center;
+}
+
+.box2-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.contacts {
+    display: flex;
+  flex-direction: column;
+    height: 200px;
+}
+
+.box3 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.box3-1 {
+display: flex;
+justify-content: space-around;
+
+}
+
+.box3-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box3-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    margin: 10px;
+}
+
